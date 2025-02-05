@@ -27,7 +27,7 @@ const Output = memo(({ isError, output }: Props) => {
           ))
         ) : (
           <p className='text-muted-foreground italic'>
-            Click "Run Code" to see the output here
+            Click &quot;Run Code&quot; to see the output here
           </p>
         )}
       </ScrollArea>
